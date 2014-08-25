@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PROSTO FM</string>
+    <string name="play_btn_name">Play</string>
+    <string name="stop_btn_name">Stop</string>
+    <string name="action_settings">Settings</string>
+    <string name="station_picker_prompt"></string>
+
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Base.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="soundValueSeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seek_bar_progress</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">10dip</item>
+        <item name="android:maxWidth">237dip</item>
+        <item name="android:thumb">@drawable/thumb_value</item>
+        <item name="android:thumbOffset">0dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+
+    <style  name="sSpinner"  >
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerItem.DropDownItem</item>
+        <item name="android:background">@drawable/station_picker</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="SpinnerItem" >
+        <item name="android:textColor">#F8F7F6</item>
+
+    </style>
+
+    <style name="SpinnerItem.DropDownItem">
+        <item name="android:textColor">#F8F7F6</item>
+
+    </style>
+
+
+
+</resources>

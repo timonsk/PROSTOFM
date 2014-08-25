@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <size
+                android:height="5dp"
+                android:width="5dp"
+
+                />
+
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item >
+
+        <bitmap android:src="@drawable/black_progress_bar_pointer_big" />
+
+        </item>
+
+</layer-list>
